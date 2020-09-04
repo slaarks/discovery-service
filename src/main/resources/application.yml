@@ -1,0 +1,10 @@
+server:
+  port: 1717
+  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 5
+    max-threads-for-peer-replication: 0
